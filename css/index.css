@@ -264,12 +264,13 @@ h1{
     display: none;
   }
   header {
+    flex-direction: column;
     flex-wrap: wrap;
     
   }
   header nav {
     display: flex;
-    order: 2;
+/*    order: 2;*/
 /*    align-self: center;*/
 /*    padding-left: 10px;*/
 /*    justify-content: center;*/
@@ -303,6 +304,9 @@ h1{
   
   .middle-top-right, .middle-top-left {
 /*    width: 100%;*/
+  }
+  #middle-img {
+    display: none;
   }
   footer {
     display: flex;
